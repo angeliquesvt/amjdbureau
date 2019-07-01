@@ -1,0 +1,19 @@
+.User_picture {
+    width: 180px;
+    margin: 30px 0px;
+}
+
+.User_list {
+    position: fixed;
+    right: 28px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 21px;
+    justify-content: space-between;
+    a {
+        text-decoration: none;
+        color: get-color('blue');
+        margin-bottom: 15px;
+    }
+}

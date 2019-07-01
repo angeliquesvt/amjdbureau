@@ -1,0 +1,174 @@
+.Form_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+input {
+  padding: 10px 20px;
+  border: 1px grey solid;
+  border-radius: 4px;
+}
+
+textarea {
+  padding: 10px 20px;
+  border: 1px grey solid;
+  border-radius: 4px;
+}
+
+input:focus, textarea:focus {
+  border:1px get-color("light-blue") solid;
+  border-color: #6ea2ff;
+  transition: all ease 0.2s;
+}
+fieldset {
+  padding: 45px;
+  border: 1px #b3b3b3 solid;
+}
+
+legend {
+  text-align: center;
+  padding: 0px 19px;
+  font-size: 20px;
+}
+
+.Form_footer {
+  padding: 15px 0 0;
+}
+
+.Form_button {
+  background-color: get-color("blue");
+  border: none;
+  color: white;
+  border-radius: 15px;
+  font-weight: bold;
+  width: 163px;
+  padding: 18px;
+  cursor: pointer;
+}
+
+.Form_adherent {
+  padding: 40px 10px 115px;
+}
+
+.Form_inscription {
+  width: 615px;
+  /* display: inline-block; */
+  margin: 0 auto;
+  input {
+    width: 300px;
+  }
+  textarea {
+    width: 300px;
+  }
+  .Form_adress {
+    width: 100%;
+  }
+  label span {
+    margin-left: 10px;
+  }
+}
+
+.Form_inputfile {
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.Form_empty {
+  color: lightgrey;
+}
+
+
+
+.Form {
+  padding: 50px;
+  width: 790px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  box-shadow: -1px 1px 12px 2px #d6d6d6;
+}
+
+.Form_margin {
+  padding: 32px 0px;
+}
+
+.Form_row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.Form_picture {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.Form_delete {
+  padding: 130px 0px 100px;
+  text-align: right;
+}
+
+.Form_inputs {
+
+  input {
+    width: 300px;
+  }
+  textarea {
+    width: 300px;
+  }
+  .Form_adress {
+    width: 100%;
+  }
+}
+
+.Form_title {
+  text-align: center;
+  padding: 0px 0px 50px;
+  font-size: 23px;
+  color: #6ea2ff;
+  font-weight: bold;
+}
+
+input[type=date] {
+  font-size: 13px;
+}
+
+.Form_radio {
+  width: 20px!important;
+}
+
+.Form_inputRadio {
+  width: 300px;
+  label {
+    margin-right: 30px;
+
+  }
+
+}
+
+.Form_radiomargins {
+  padding: 4px 20px 7px;
+  display: flex;
+  align-items: center;
+}
+.Form_montant {
+  width: 150px!important;
+  margin-top: 5px;
+}
+
+.Form_inputRadio {
+  label {
+    display: inline;
+  }
+}
+
+.Form_radiocontainer {
+  width: 300px;
+  padding-left: 15px;
+}
+
+.Form_label {
+  display: block;
+  color: #bdbdbd;
+  font-weight: bold;
+}

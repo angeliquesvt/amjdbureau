@@ -1,0 +1,19 @@
+.Form_validate {
+  width: 100%;
+  padding: 16px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: get-color("blue");
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.Form_delete--input {
+  color: white;
+  font-weight: bold;
+  background-color: #ff2323;
+  cursor: pointer;
+}

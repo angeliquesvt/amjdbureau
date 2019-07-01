@@ -1,0 +1,21 @@
+{
+  "name": "amjd",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "cross-env NODE_ENV=production gulp compile",
+    "prestart": "gulp compile",
+    "start": "gulp watch"
+  },
+  "devDependencies": {
+    "@wandiparis/eslint-config-wandi": "^2.0.0",
+    "@wandiparis/gulp-fonts": "^1.0.1",
+    "@wandiparis/gulp-images": "^1.0.1",
+    "@wandiparis/gulp-javascripts": "^2.0.0",
+    "@wandiparis/gulp-sprite": "^1.1.3",
+    "@wandiparis/gulp-styles": "^1.1.1",
+    "@wandiparis/stylelint-config-wandi": "^4.0.0",
+    "cross-env": "^5.2.0",
+    "include-media": "^1.4.9",
+    "normalize.css": "^8.0.0"
+  }
+}

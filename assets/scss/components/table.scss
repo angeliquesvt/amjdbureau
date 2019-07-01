@@ -1,0 +1,70 @@
+.Table {
+    width: 100%;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    border-spacing: 0px;
+
+
+    td {
+        padding: 5px 10px 5px;
+        border: 1px #f4f4f4 solid;
+    }
+
+    .Table_name {
+        width: 110px;
+
+    }
+    .Table_group {
+        width: 50px;
+    }
+    .Table_notes {
+        width: 300px;
+    }
+    .Table_modify {
+        text-align: right;
+        width: 50px;
+    }
+    .Table_avatar {
+        width: 130px;
+        text-align: center;
+    }
+
+}
+
+.Table_link {
+  text-decoration: none;
+  color: get-color('blue');
+}
+
+.Table_picture {
+    width: 120px;
+}
+
+.Table_title {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Table_edit {
+    input[type=text] {
+        width: 400px;
+    }
+    input[type=date] {
+        width: 400px;
+    }
+    input[type=email] {
+        width: 400px;
+    }
+    td {
+        padding: 10px 15px;
+    }
+    input {
+        color: #4f4f4f;;
+    }
+    label {
+        font-weight: bold;
+    }
+    text-align: right;
+    border-spacing: 0px;
+}
