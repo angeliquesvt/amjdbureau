@@ -8,13 +8,11 @@ $font-path: "../fonts";
 //     "weight": font-weight
 // )
 $fonts: (
-
- "file-name": (
-     "family": Raleway,
-     "style": normal,
- )
-
-
+    "Montserrat-Medium": (
+       "family": "Monserrat",
+       "style": "normal",
+       "weight": "normal"
+    )
 );
 
 // Colors map
@@ -24,7 +22,7 @@ $colors: (
     'blue': #6ea2ff,
     'light-blue': #fff,
     'red': #ff3d3d
-);  
+);
 
 // Breakpoints map to use with include-media
 // See https://github.com/eduardoboucas/include-media

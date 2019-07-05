@@ -7,13 +7,19 @@
 
 input {
   padding: 10px 20px;
-  border: 1px grey solid;
+  border: 1px #b9b9b9 solid;
   border-radius: 4px;
+}
+
+select {
+    padding: 5px 15px;
+    border: 1px #b9b9b9 solid;
+    border-radius: 4px;
 }
 
 textarea {
   padding: 10px 20px;
-  border: 1px grey solid;
+  border: 1px #b9b9b9 solid;
   border-radius: 4px;
 }
 
@@ -22,6 +28,7 @@ input:focus, textarea:focus {
   border-color: #6ea2ff;
   transition: all ease 0.2s;
 }
+
 fieldset {
   padding: 45px;
   border: 1px #b3b3b3 solid;
@@ -77,15 +84,15 @@ legend {
 .Form_empty {
   color: lightgrey;
 }
-
-
-
 .Form {
   padding: 50px;
   width: 790px;
   margin: 0 auto;
   background-color: #ffffff;
   box-shadow: -1px 1px 12px 2px #d6d6d6;
+}
+.Form_small {
+    width: 400px;
 }
 
 .Form_margin {

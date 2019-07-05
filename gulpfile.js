@@ -25,8 +25,6 @@ const compile = gulp.parallel(
 const watch = () => {
   gulp.watch("assets/scss/**/*.scss", styles);
   gulp.watch("assets/img/**/*.{jpg,png,gif,svg}", images());
-  gulp.watch("assets/img/icons/*.png", sprite());
-
   baseJavascripts(production, {watch: true})();
 };
 

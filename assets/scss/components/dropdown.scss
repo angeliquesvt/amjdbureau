@@ -1,0 +1,28 @@
+.Dropdown {
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    cursor: pointer;
+    transition: all ease 250ms;
+    border: 1px #f4f4f4 solid;
+
+    &:hover {
+        .Dropdown_container {
+            opacity: 1;
+        }
+    }
+}
+
+.Dropdown_container {
+    transition: all ease 200ms;
+    position: absolute;
+    opacity: 0;
+    top: 40px;
+    background-color: white;
+    width: 100%;
+    border: 1px #f4f4f4 solid;
+}
+
+.Dropdown_item {
+    padding: 10px 15px;
+}
